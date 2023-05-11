@@ -29,7 +29,7 @@ export default React.memo(function Card({ movieData, isLiked = false }) {
 
   const addToList = async () => {
     try {
-      await axios.post("http://localhost:5000/api/user/adicionar", {
+      await axios.post("https://netflix-server-hlbf.onrender.com/api/user/adicionar", {
         email,
         data: movieData,
       });
