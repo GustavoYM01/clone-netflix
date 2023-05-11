@@ -14,7 +14,7 @@ import img3 from "../imgs/3-left.png";
 import img4 from "../imgs/4-right.png";
 import { useNavigate } from "react-router-dom";
 
-export default function Signup() {
+export default function Cadastro() {
   const [showPassword, setShowPassword] = useState(false);
   const [showPassword2, setShowPassword2] = useState(false);
 

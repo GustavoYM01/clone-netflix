@@ -23,7 +23,7 @@ export default React.memo(function Card({ movieData, isLiked = false }) {
     onAuthStateChanged(firebaseAuth, (currentUser) => {
       if (currentUser) {
         setEmail(currentUser.email);
-      } else navigate("/login");
+      } else navigate("/entrar");
     });
   }, []);
 

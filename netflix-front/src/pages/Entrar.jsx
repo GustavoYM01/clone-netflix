@@ -6,7 +6,7 @@ import BgImg from "../components/BgImg";
 import Header from "../components/Header";
 import styled from "styled-components";
 
-export default function Login() {
+export default function Entrar() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();

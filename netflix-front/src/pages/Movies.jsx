@@ -34,7 +34,7 @@ export default function Movies() {
   useEffect(() => {
     onAuthStateChanged(firebaseAuth, (currentUser) => {
       if (currentUser) setUser(currentUser.uid);
-      else navigate("/login");
+      else navigate("/entrar");
     });
   }, []);
 

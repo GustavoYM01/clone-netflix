@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Entrar from "./pages/Entrar";
+import Cadastro from "./pages/Cadastro";
 import Netflix from "./pages/Netflix";
 import Player from "./pages/Player";
 import Movies from "./pages/Movies";
@@ -12,8 +12,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/entrar" element={<Login />} />
-        <Route exact path="/cadastro" element={<Signup />} />
+        <Route exact path="/entrar" element={<Entrar />} />
+        <Route exact path="/cadastro" element={<Cadastro />} />
         <Route exact path="/player" element={<Player />} />
         <Route exact path="/filmes" element={<Movies />} />
         <Route exact path="/series" element={<TvShows />} />
